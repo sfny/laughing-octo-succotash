@@ -1,0 +1,32 @@
+/* About Page */
+#about-page {
+  .investors {
+    li {
+      display: inline-block;
+      min-height: 80px;
+      line-height: 80px;
+      padding: 5px 40px 5px 0;
+    }
+    @media (max-width: $screen-sm) {
+      li {
+        display:block;
+      }
+    }
+  }
+  #app-tour {
+    background: url('site/white_phone_mockup.png') no-repeat center top;
+    height: 555px;
+    width: 320px;
+    .carousel-inner {
+      width: 202px;
+      top: 75px;
+      left: 56px;
+    }
+  }
+}
+
+body.support-page {
+  #balance-bar + .container-fluid, #header.signed-out + .container-fluid {
+    padding: 0;
+  }
+}
